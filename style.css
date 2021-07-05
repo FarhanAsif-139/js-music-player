@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+h1, h2, h4{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 80vh;
+    width: 50vw;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+.music-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.album-image{
+    background-color: crimson;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.track-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.track-title{
+    font-size: 28px;
+}
+ .progress-container{
+     background-color: rgb(63, 23, 23);
+     height: 5px;
+     width: 500px;
+     margin-bottom: 10px;
+ }
+ .btn-container{
+     margin-top: 20px;
+ }
+
+ .btn{
+     padding: 15px;
+     font-size: 18px;
+     border-radius: 5px;
+     background-color:rgb(197, 197, 64);
+ }
